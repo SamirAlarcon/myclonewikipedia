@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --primary-font:'Linux Libertine', serif;
+    --secundary-font:'Poppins', sans-serif;;
+    --primary-font-size:3.2rem;
+    --secundary-font-size:1.5rem;
+    --primary-color:#36c;
+    --secundary-color:#54595d;
+    --tercer-color:#f8f9fa;
+    --cuarto-color:#a2a9b1;
+}
+
+h1{
+    font-family: var(--primary-font);
+    font-size: var(--primary-font-size);
+    text-align: center;
+    margin-top: 50px;
+}
+
+p{
+    text-align: center;
+    font-size: var(--secundary-font-size);
+    margin-top: 5px;
+}
+
+.content-search{
+    display: flex;
+    justify-content: center;
+}
+
+.box-search{
+    height: 45px;
+    width: 500px;
+    border: 2px solid var(--primary-color);
+    display: flex;
+    border-radius: 4px;
+    margin: 30px 0;
+}
+
+.box-search input{
+    width: 80%;
+    border: none;
+    padding: 0 10px;
+    font-size: var(--secundary-font-size);
+}
+
+.box-search select{
+    width: 10%;
+    background-color: white;
+    border: none;
+    color: var(--secundary-color);
+    font-size: var(--secundary-font-size);
+    margin:0 5px;
+    font-family: var(--secundary-font);
+}
+
+.box-search i{
+    color: white;
+    background-color: var(--primary-color);
+    padding: 12px 18px;
+    font-size: 20px;
+}
+
+.content-btn-idioma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content-btn-idioma hr{
+    width:120px;
+    height:0.5px;
+    margin:0 5px;
+}
+
+.content-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background-color: var(--tercer-color);
+    color: var(--primary-color);
+    border: 1px solid var(--cuarto-color);
+}
+
+.icon-lenguaje{
+    margin-right: 5px;
+    margin-left: 10px;
+    height: 18px;
+    width: 30px;
+    display: inline-block;
+    background-position: 0 -691px;
+    background-image: url(https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png);
+}
+
+.icon-pestana{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    height: 10px;
+    width: 15px;
+    display: inline-block;
+    background-position: 0 -526px;
+    background-image: url(https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png);
+}
+
+hr{
+    margin:0 10px;
+}
+
+.content-sections{
+    display: flex;
+}
