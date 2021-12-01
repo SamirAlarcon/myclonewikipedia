@@ -17,6 +17,7 @@ html{
     --secundary-color:#54595d;
     --tercer-color:#f8f9fa;
     --cuarto-color:#a2a9b1;
+    --img-icons:'https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png';
 }
 
 h1{
@@ -30,6 +31,82 @@ p{
     text-align: center;
     font-size: var(--secundary-font-size);
     margin-top: 5px;
+}
+
+.countryes{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.countryes-position{
+    width: 200px;
+}
+
+.countryes img{
+    width: 200px;
+    margin: 80px 0;
+    position: relative;
+    top: -450px;
+}
+
+.countryes .english{
+    position: relative;
+    left: -120px;
+    top: 20px;
+}
+
+.countryes .chino{
+    position: relative;
+    left: -160px;
+    top: 30px;
+}
+
+.countryes .idioma-3{
+    position: relative;
+    left: -180px;
+    top: 40px;
+}
+
+.countryes .idioma-4{
+    position: relative;
+    left: -160px;
+    top: 50px;
+}
+.countryes .idioma-5{
+    position: relative;
+    left: -120px;
+    top: 60px;
+}
+
+.countryes .idioma-6{
+    position: relative;
+    left: 120px;
+    top: 15px;
+}
+
+.countryes .idioma-7{
+    position: relative;
+    left: 160px;
+    top: -85px;
+}
+
+.countryes .idioma-8{
+    position: relative;
+    left: 180px;
+    top: -185px;
+}
+
+.countryes .idioma-9{
+    position: relative;
+    left: 160px;
+    top: -285px;
+}
+
+.countryes .espaniol{
+    position: relative;
+    left: 120px;
+    top: -385px;
 }
 
 .content-search{
@@ -119,6 +196,126 @@ hr{
     margin:0 10px;
 }
 
+aside{
+    max-width: 400px;
+    margin: 0 100px;
+}
+
 .content-sections{
+    margin:40px 2%;
     display: flex;
+}
+
+.content-sections aside{
+    width: 35%;
+}
+
+.content-sections p{
+    color: var(--secundary-color);
+    text-align: left;
+    line-height: 18px;
+}
+
+.content-sections .mini-sections{
+    width: 65%;
+}
+
+.content-sections .content-1{
+    display: flex;
+}
+
+.content-1 div{
+    padding-top: 10px;
+}
+
+.img-icon{
+    min-width: 50px;
+    height: 55px;
+    background-image: url(https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png);
+    background-position: center;
+    background-position: 0 -200px;
+}
+
+.content-2{
+    background-color: var(--tercer-color);
+    margin-top: 30px;
+}
+
+.img-icon2{
+    min-width: 50px;
+    height: 43px;
+    background-image: url(https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png);
+    background-position: center;
+    background-position: 0 -1459px;
+}
+
+.img-icon3{
+    display: block;
+    min-width: 50px;
+    max-width: 150px;
+    height: 40px;
+    background-image: url(https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png);
+    background-position: center;
+    background-position: 0 -1285px;
+    margin: 5px 0;
+}
+
+.img-icon4{
+    display: block;
+    min-width: 50px;
+    max-width: 150px;
+    height: 40px;
+    background-image: url(https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png);
+    background-position: center;
+    background-position: 0 -1325px;
+    margin: 5px 0;
+}
+
+.mini-sections{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 80px;
+}
+
+.section-categoria{
+    height: 100px;
+    width: 33.33%;
+    display: flex;
+}
+
+.section-categoria .t1{
+    color: var(--primary-color);
+}
+
+.section-categoria span{
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-image: url(https://byron7cueva.github.io/arquitecto-frontend/htmlCssPractico/wikipedia/assets/img/sprite-81a290a5.png);
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: var(--cuarto-color) 1px solid;
+}
+
+footer p{
+    margin:0 20px;
+    font-size: 1.6rem;
+}
+
+footer p a{
+    text-decoration: none;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer ul li{
+    margin:0 10px;
+    font-size: 1.6rem;
 }
